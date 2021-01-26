@@ -1,8 +1,3 @@
-$(".hui-color-entertainment .hui-highlight--with-separator")
-    .append("<div class='globo-sem-besteirol'>" +
-        "Conteúdo protegido pelo Globo Sem Besteirol" +
-        "</div>");
-
-$(".hui-premium.hui-color-entertainment").html("Conteúdo protegido pelo Globo Sem Besteirol");
-
-$(".destaque-trilho.hui-color-entertainment").html("Conteúdo protegido pelo Globo Sem Besteirol");
+$('[data-tracking-action="entretenimento"]').each(function(){
+    $(this).html("<h3 class='highlight-font-title-column  homeui-tc-entretenimento'>Protegido pelo Globo Sem Besteirol</h3>");
+});
