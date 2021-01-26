@@ -3,7 +3,7 @@
 
   "name": "Globo Sem Besteirol",
   "description": "Essa extensão remove todo conteúdo denominado Entretenimento do Portal da Globo.com",
-  "version": "1.0",
+  "version": "3.1",
   "background": { "scripts": ["background.js"] },
   "icons": {"16": "icon16.png",
            "48": "icon48.png",
@@ -17,6 +17,7 @@
         "http://*.globo.com/*",
         "https://*.globo.com/*"
       ],
+      "css": ["globo-sem-besteirol.css"],
       "js" : ["jquery-1.9.0.min.js","contentscript.js"],
       "run_at" : "document_end",
       "all_frames" : false

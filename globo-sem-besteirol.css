@@ -1,0 +1,13 @@
+.globo-sem-besteirol {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 999;
+    top: 0;
+    font-family: opensans-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+
+.hui-highlight--with-separator {
+    position: relative;
+}
